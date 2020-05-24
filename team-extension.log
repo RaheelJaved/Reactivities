@@ -169,3 +169,101 @@
 2020-05-23T08:54:51.500Z - debug:  [09588] TFVC errors (via stderr): Unable to determine the source control server.
 
 2020-05-23T08:54:51.500Z - error:  [09588] Could not find a workspace with mappings (e.g., not a TFVC repository, wrong version of TF is being used).
+2020-05-23T10:10:55.812Z - debug:  [09588] Reinitializing due to onDidChangeConfiguration
+2020-05-23T10:10:55.813Z - debug:  [09588] Polling interval value (minutes): 5
+2020-05-23T10:10:55.813Z - debug:  [09588] Polling interval must be greater than 10 minutes.
+2020-05-23T10:10:55.816Z - info:   [09588] *** FOLDER: d:\RJ\Study\DotnetCoreReact\Reactivities ***
+2020-05-23T10:10:55.816Z - info:   [09588] AzureReposVSCode/1.161.0 (VSCode 1.45.1; Windows_NT 10.0.15063; Node 12.8.1)
+2020-05-23T10:10:55.818Z - debug:  [09588] Looking for an External Context at d:\RJ\Study\DotnetCoreReact\Reactivities
+2020-05-23T10:10:55.818Z - debug:  [09588] No External Context at d:\RJ\Study\DotnetCoreReact\Reactivities
+2020-05-23T10:10:55.950Z - debug:  [09588] Looking for TFVC repository at d:\RJ\Study\DotnetCoreReact\Reactivities
+2020-05-23T10:10:55.950Z - debug:  [09588] TFVC Creating Tfvc object with localPath='undefined'
+2020-05-23T10:10:55.951Z - debug:  [09588] Using TFS proxy: 
+2020-05-23T10:10:55.951Z - debug:  [09588] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.EXE'
+2020-05-23T10:10:55.951Z - debug:  [09588] TFVC Repository created with repositoryRootFolder='d:\RJ\Study\DotnetCoreReact\Reactivities'
+2020-05-23T10:10:55.952Z - debug:  [09588] TFVC Repository.CheckVersion
+2020-05-23T10:10:55.953Z - debug:  [09588] TFVC: tf add -noprompt -?
+2020-05-23T10:10:55.959Z - debug:  [09588] TFVC: spawned new process (duration: 5ms)
+2020-05-23T10:10:56.046Z - debug:  [09588] TFVC: add exit code: 0 (duration: 92ms)
+2020-05-23T10:10:56.047Z - debug:  [09588] TFVC Minimum required version: 14.102.0
+2020-05-23T10:10:56.047Z - debug:  [09588] TFVC (TF.exe, TF.cmd) version: 15.129.30001.5
+2020-05-23T10:10:56.047Z - debug:  [09588] TFVC Repository.FindWorkspace with localPath='d:\RJ\Study\DotnetCoreReact\Reactivities'
+2020-05-23T10:10:56.047Z - debug:  [09588] TFVC: tf workfold -noprompt d:\RJ\Study\DotnetCoreReact\Reactivities
+2020-05-23T10:10:56.052Z - debug:  [09588] TFVC: spawned new process (duration: 4ms)
+2020-05-23T10:10:56.402Z - debug:  [09588] TFVC: workfold exit code: 100 (duration: 355ms)
+2020-05-23T10:10:56.403Z - debug:  [09588] TFVC errors (via stderr): Unable to determine the source control server.
+
+2020-05-23T10:10:56.403Z - error:  [09588] Could not find a workspace with mappings (e.g., not a TFVC repository, wrong version of TF is being used).
+2020-05-23T10:26:16.299Z - debug:  [09588] Reinitializing due to onDidChangeConfiguration
+2020-05-23T10:26:16.301Z - debug:  [09588] Polling interval value (minutes): 5
+2020-05-23T10:26:16.301Z - debug:  [09588] Polling interval must be greater than 10 minutes.
+2020-05-23T10:26:16.305Z - info:   [09588] *** FOLDER: d:\RJ\Study\DotnetCoreReact\Reactivities ***
+2020-05-23T10:26:16.305Z - info:   [09588] AzureReposVSCode/1.161.0 (VSCode 1.45.1; Windows_NT 10.0.15063; Node 12.8.1)
+2020-05-23T10:26:16.306Z - debug:  [09588] Looking for an External Context at d:\RJ\Study\DotnetCoreReact\Reactivities
+2020-05-23T10:26:16.306Z - debug:  [09588] No External Context at d:\RJ\Study\DotnetCoreReact\Reactivities
+2020-05-23T10:26:16.448Z - debug:  [09588] Looking for TFVC repository at d:\RJ\Study\DotnetCoreReact\Reactivities
+2020-05-23T10:26:16.449Z - debug:  [09588] TFVC Creating Tfvc object with localPath='undefined'
+2020-05-23T10:26:16.449Z - debug:  [09588] Using TFS proxy: 
+2020-05-23T10:26:16.449Z - debug:  [09588] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.EXE'
+2020-05-23T10:26:16.450Z - debug:  [09588] TFVC Repository created with repositoryRootFolder='d:\RJ\Study\DotnetCoreReact\Reactivities'
+2020-05-23T10:26:16.450Z - debug:  [09588] TFVC Repository.CheckVersion
+2020-05-23T10:26:16.451Z - debug:  [09588] TFVC: tf add -noprompt -?
+2020-05-23T10:26:16.456Z - debug:  [09588] TFVC: spawned new process (duration: 4ms)
+2020-05-23T10:26:16.549Z - debug:  [09588] TFVC: add exit code: 0 (duration: 98ms)
+2020-05-23T10:26:16.550Z - debug:  [09588] TFVC Minimum required version: 14.102.0
+2020-05-23T10:26:16.550Z - debug:  [09588] TFVC (TF.exe, TF.cmd) version: 15.129.30001.5
+2020-05-23T10:26:16.550Z - debug:  [09588] TFVC Repository.FindWorkspace with localPath='d:\RJ\Study\DotnetCoreReact\Reactivities'
+2020-05-23T10:26:16.550Z - debug:  [09588] TFVC: tf workfold -noprompt d:\RJ\Study\DotnetCoreReact\Reactivities
+2020-05-23T10:26:16.554Z - debug:  [09588] TFVC: spawned new process (duration: 4ms)
+2020-05-23T10:26:16.918Z - debug:  [09588] TFVC: workfold exit code: 100 (duration: 368ms)
+2020-05-23T10:26:16.919Z - debug:  [09588] TFVC errors (via stderr): Unable to determine the source control server.
+
+2020-05-23T10:26:16.919Z - error:  [09588] Could not find a workspace with mappings (e.g., not a TFVC repository, wrong version of TF is being used).
+2020-05-23T10:28:35.791Z - debug:  [09588] Reinitializing due to onDidChangeConfiguration
+2020-05-23T10:28:35.792Z - debug:  [09588] Polling interval value (minutes): 5
+2020-05-23T10:28:35.792Z - debug:  [09588] Polling interval must be greater than 10 minutes.
+2020-05-23T10:28:35.794Z - info:   [09588] *** FOLDER: d:\RJ\Study\DotnetCoreReact\Reactivities ***
+2020-05-23T10:28:35.795Z - info:   [09588] AzureReposVSCode/1.161.0 (VSCode 1.45.1; Windows_NT 10.0.15063; Node 12.8.1)
+2020-05-23T10:28:35.795Z - debug:  [09588] Looking for an External Context at d:\RJ\Study\DotnetCoreReact\Reactivities
+2020-05-23T10:28:35.796Z - debug:  [09588] No External Context at d:\RJ\Study\DotnetCoreReact\Reactivities
+2020-05-23T10:28:35.938Z - debug:  [09588] Looking for TFVC repository at d:\RJ\Study\DotnetCoreReact\Reactivities
+2020-05-23T10:28:35.938Z - debug:  [09588] TFVC Creating Tfvc object with localPath='undefined'
+2020-05-23T10:28:35.939Z - debug:  [09588] Using TFS proxy: 
+2020-05-23T10:28:35.939Z - debug:  [09588] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.EXE'
+2020-05-23T10:28:35.939Z - debug:  [09588] TFVC Repository created with repositoryRootFolder='d:\RJ\Study\DotnetCoreReact\Reactivities'
+2020-05-23T10:28:35.939Z - debug:  [09588] TFVC Repository.CheckVersion
+2020-05-23T10:28:35.939Z - debug:  [09588] TFVC: tf add -noprompt -?
+2020-05-23T10:28:35.944Z - debug:  [09588] TFVC: spawned new process (duration: 4ms)
+2020-05-23T10:28:36.020Z - debug:  [09588] TFVC: add exit code: 0 (duration: 81ms)
+2020-05-23T10:28:36.020Z - debug:  [09588] TFVC Minimum required version: 14.102.0
+2020-05-23T10:28:36.020Z - debug:  [09588] TFVC (TF.exe, TF.cmd) version: 15.129.30001.5
+2020-05-23T10:28:36.020Z - debug:  [09588] TFVC Repository.FindWorkspace with localPath='d:\RJ\Study\DotnetCoreReact\Reactivities'
+2020-05-23T10:28:36.020Z - debug:  [09588] TFVC: tf workfold -noprompt d:\RJ\Study\DotnetCoreReact\Reactivities
+2020-05-23T10:28:36.023Z - debug:  [09588] TFVC: spawned new process (duration: 3ms)
+2020-05-23T10:28:36.362Z - debug:  [09588] TFVC: workfold exit code: 100 (duration: 342ms)
+2020-05-23T10:28:36.363Z - debug:  [09588] TFVC errors (via stderr): Unable to determine the source control server.
+
+2020-05-23T10:28:36.363Z - error:  [09588] Could not find a workspace with mappings (e.g., not a TFVC repository, wrong version of TF is being used).
+2020-05-24T15:56:41.463Z - info:   [05524] *** FOLDER: d:\RJ\Study\DotnetCoreReact\Reactivities ***
+2020-05-24T15:56:41.464Z - info:   [05524] AzureReposVSCode/1.161.0 (VSCode 1.45.1; Windows_NT 10.0.15063; Node 12.8.1)
+2020-05-24T15:56:41.464Z - debug:  [05524] Looking for an External Context at d:\RJ\Study\DotnetCoreReact\Reactivities
+2020-05-24T15:56:41.464Z - debug:  [05524] No External Context at d:\RJ\Study\DotnetCoreReact\Reactivities
+2020-05-24T15:56:41.467Z - debug:  [05524] Looking for TFVC repository at d:\RJ\Study\DotnetCoreReact\Reactivities
+2020-05-24T15:56:41.468Z - debug:  [05524] TFVC Creating Tfvc object with localPath='undefined'
+2020-05-24T15:56:41.468Z - debug:  [05524] Using TFS proxy: 
+2020-05-24T15:56:41.468Z - debug:  [05524] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.EXE'
+2020-05-24T15:56:41.468Z - debug:  [05524] TFVC Repository created with repositoryRootFolder='d:\RJ\Study\DotnetCoreReact\Reactivities'
+2020-05-24T15:56:41.469Z - debug:  [05524] TFVC Repository.CheckVersion
+2020-05-24T15:56:41.469Z - debug:  [05524] TFVC: tf add -noprompt -?
+2020-05-24T15:56:41.475Z - debug:  [05524] TFVC: spawned new process (duration: 6ms)
+2020-05-24T15:56:41.480Z - debug:  [05524] TFVC: spawned new process (duration: 5ms)
+2020-05-24T15:56:42.236Z - debug:  [05524] TFVC: add exit code: 0 (duration: 766ms)
+2020-05-24T15:56:42.236Z - debug:  [05524] TFVC Minimum required version: 14.102.0
+2020-05-24T15:56:42.236Z - debug:  [05524] TFVC (TF.exe, TF.cmd) version: 15.129.30001.5
+2020-05-24T15:56:42.237Z - debug:  [05524] TFVC Repository.FindWorkspace with localPath='d:\RJ\Study\DotnetCoreReact\Reactivities'
+2020-05-24T15:56:42.238Z - debug:  [05524] TFVC: tf workfold -noprompt d:\RJ\Study\DotnetCoreReact\Reactivities
+2020-05-24T15:56:42.254Z - debug:  [05524] TFVC: spawned new process (duration: 16ms)
+2020-05-24T15:56:42.511Z - debug:  [05524] TFVC: workfold exit code: 100 (duration: 273ms)
+2020-05-24T15:56:42.512Z - debug:  [05524] TFVC errors (via stderr): Unable to determine the source control server.
+
+2020-05-24T15:56:42.512Z - error:  [05524] Could not find a workspace with mappings (e.g., not a TFVC repository, wrong version of TF is being used).
