@@ -1,23 +1,15 @@
-import React, { useState, FormEvent } from 'react';
+import React, { useState, FormEvent, useContext } from 'react';
 import { Segment, Form, Button } from 'semantic-ui-react';
 import { IActivity } from '../../../app/models/activities';
 import { v4 as uuid } from 'uuid';
+import ActivityStore from '../../../app/stores/activityStore';
+import { observer } from 'mobx-react-lite';
 
 interface IProps {
-    activity: IActivity | null;
-    setEditMode: (editMode: boolean) => void;
-    createActivity: (activity: IActivity) => void;
-    editActivity: (activity: IActivity) => void;
-    submitting: boolean;
+    activity: IActivity | undefined;
 }
 
-export const ActivityForm: React.FC<IProps> = ({
-    setEditMode,
-    activity: initialFormState,
-    createActivity,
-    editActivity,
-    submitting,
-}) => {
+const ActivityForm: React.FC<IProps> = ({ activity: initialFormState }) => {
     const initializeForm = () => {
         if (initialFormState) return initialFormState;
         else {
@@ -51,6 +43,9 @@ export const ActivityForm: React.FC<IProps> = ({
         }
     };
 
+    const activityStore = useContext(ActivityStore);
+    const { createActivity, cancelFormOpen, editActivity, submitting } = activityStore;
+
     return (
         <Segment clearing>
             <Form onSubmit={handleSubmit}>
@@ -78,8 +73,10 @@ export const ActivityForm: React.FC<IProps> = ({
                 <Form.Input onChange={handleInputChange} name="city" placeholder="City" value={activity.city} />
                 <Form.Input onChange={handleInputChange} name="venue" placeholder="Venue" value={activity.venue} />
                 <Button loading={submitting} floated="right" positive type="submit" content="Submit" />
-                <Button floated="right" type="button" content="Cancel" onClick={() => setEditMode(false)} />
+                <Button floated="right" type="button" content="Cancel" onClick={cancelFormOpen} />
             </Form>
         </Segment>
     );
 };
+
+export default observer(ActivityForm);
